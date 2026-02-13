@@ -118,7 +118,7 @@ public class WeaponManager : MonoBehaviour
         pickedUpWeapon.transform.localPosition = new Vector3(weapon.spawnPosition.x, weapon.spawnPosition.y, weapon.spawnPosition.z);
         pickedUpWeapon.transform.localRotation = Quaternion.Euler(weapon.spawnRotation.x, weapon.spawnRotation.y, weapon.spawnRotation.z);
         weapon.isActiveWeapon = true;
-        weapon.animator.enabled = true;
+        //weapon.animator.enabled = true;
     }
     #endregion
 
@@ -142,7 +142,7 @@ public class WeaponManager : MonoBehaviour
         {
             var weaponToDrop = activeWeaponSlot.transform.GetChild(0).gameObject;
             weaponToDrop.GetComponent<Weapon>().isActiveWeapon = false;
-            weaponToDrop.GetComponent<Weapon>().animator.enabled = false;
+            //weaponToDrop.GetComponent<Weapon>().animator.enabled = false;
             weaponToDrop.transform.SetParent(pickedUpWeapon.transform.parent);
             weaponToDrop.transform.localPosition = pickedUpWeapon.transform.localPosition;
             weaponToDrop.transform.localRotation = pickedUpWeapon.transform.localRotation;

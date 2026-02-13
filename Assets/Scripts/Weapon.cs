@@ -20,7 +20,7 @@ public float bulletVelocity = 30;
 public float bulletPrefabLifeTime = 3f;
 
 public GameObject muzzleEffect;
-internal Animator animator;
+//internal Animator animator;
 
 
 public float reloadTime;
@@ -48,7 +48,7 @@ public enum ShootingMode
     {
        readyToShoot = true;
        burstBulletsLeft = bulletsPerBurst;
-       animator = GetComponent<Animator>(); 
+       //animator = GetComponent<Animator>(); 
        bulletsLeft = magazineSize;
     }
     void Update()
@@ -100,7 +100,7 @@ public enum ShootingMode
     {
         bulletsLeft--;
         muzzleEffect.GetComponent<ParticleSystem>().Play();
-        animator.SetTrigger("RECOIL");
+        //animator.SetTrigger("RECOIL");
         SoundManager.Instance.PlayShootingSound(thisWeaponModel);
 
         readyToShoot = false;
@@ -127,7 +127,7 @@ public enum ShootingMode
     private void ReloadWeapon()
     {
         SoundManager.Instance.PlayReloadingSound(thisWeaponModel);
-        animator.SetTrigger("RELOAD");
+        //animator.SetTrigger("RELOAD");
         isReloading = true;
         Invoke("ReloadingCompleted", reloadTime);
     }
