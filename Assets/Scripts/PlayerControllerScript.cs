@@ -2,6 +2,15 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
+/*
+    Script to handle first person parkour controller movement.
+
+    Please read How_To_Use.pdf in the asset folder.
+
+    Credit to snon200,
+    For any questions: snon200@gmail.com
+*/
+
 namespace ParkourFPS
 {
     [RequireComponent(typeof(CapsuleCollider))]
@@ -9,20 +18,20 @@ namespace ParkourFPS
     [RequireComponent(typeof(SoundPlayer))]
     public class PlayerControllerScript : MonoBehaviour
     {
-        #region COMPONENTS
+        #region components
         private CapsuleCollider capsuleCollider;
         private Rigidbody playerRigidbody;
         private SoundPlayer soundPlayer;
         #endregion
 
         [Header("Camera")]
-        [Tooltip("Player camera transform")]
+        [Tooltip("player camera transform")]
         [SerializeField] private Transform cameraTransform;
-        [Tooltip("Speed lines")]
+        [Tooltip("speed lines object")]
         [SerializeField] private GameObject speedLines;
-        [Tooltip("Field of view")]
+        [Tooltip("camera field of view")]
         [SerializeField] private float fieldOfView = 80;
-        [Tooltip("Mouse look sensitivity")]
+        [Tooltip("mouse look sensitivity")]
         [SerializeField] private float lookSensitivity = 2;
 
         private Camera cameraComponent; // the player camera component
@@ -94,6 +103,8 @@ namespace ParkourFPS
         [Tooltip("sliding duration in seconds")]
         [SerializeField] private float slideDuration = 0.5f;
         [Tooltip("amount of camera lean during sliding")]
+        [SerializeField] private int slideCameraLean = 15;
+        [Tooltip("amount of fov increase when sliding")]
         [SerializeField] private float slideFovIncrease = 3;
 
         private bool isSliding = false; // if currently sliding
@@ -554,7 +565,12 @@ namespace ParkourFPS
         // set player rotation based on mouse movement
         private void SetRotation()
         {
-            if (touchingWallRight && !touchingGround) // if touching a wall to the right of the player and not on the ground
+            if (isSliding) // if sliding
+            {
+                if (currentCameraLean < slideCameraLean)
+                    currentCameraLean++; // lean left
+            }
+            else if (touchingWallRight && !touchingGround) // if touching a wall to the right of the player and not on the ground
             {
                 if (currentCameraLean < wallRunCameraLean)
                     currentCameraLean++; // lean left

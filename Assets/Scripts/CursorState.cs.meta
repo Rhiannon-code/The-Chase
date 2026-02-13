@@ -5,5 +5,5 @@ AssetOrigin:
   productId: 290830
   packageName: Parkour FPS - First Person Character Controller
   packageVersion: 1.0.1
-  assetPath: Assets/Parkour FPS - First Person Character Controller/Scripts/CursorState.cs
+  assetPath: Assets/Scripts/CursorState.cs
   uploadId: 735156
