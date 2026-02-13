@@ -50,16 +50,18 @@
   <ItemGroup>
     <Compile Include="Assets/Scripts/TestScipts/Mouse.cs" />
     <Compile Include="Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo_RandomDir.cs" />
+    <Compile Include="Assets/Scripts/PlayerControllerScript.cs" />
     <Compile Include="Assets/JMO Assets/WarFX/Demo/Assets/CFX_Demo_RotateCamera.cs" />
     <Compile Include="Assets/UnityTechnologies/EffectExamples/Shared/Scripts/ParticleExamples.cs" />
     <Compile Include="Assets/Scripts/BeerBottle.cs" />
     <Compile Include="Assets/Scripts/HUDManager.cs" />
     <Compile Include="Assets/UnityTechnologies/EffectExamples/Shared/Scripts/ParticleCollision.cs" />
-    <Compile Include="Assets/Scripts/Enemy.cs" />
     <Compile Include="Assets/JMO Assets/WarFX/Scripts/CFX_LightIntensityFade.cs" />
     <Compile Include="Assets/Scripts/Outline.cs" />
+    <Compile Include="Assets/Scripts/SoundPlayer.cs" />
     <Compile Include="Assets/JMO Assets/WarFX/Scripts/WFX_LightFlicker.cs" />
     <Compile Include="Assets/Scripts/Teleport.cs" />
+    <Compile Include="Assets/Scripts/CursorState.cs" />
     <Compile Include="Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo_Wall.cs" />
     <Compile Include="Assets/Scripts/TestScipts/MoveCamera.cs" />
     <Compile Include="Assets/UnityTechnologies/EffectExamples/Shared/Scripts/ExtinguishableFire.cs" />
@@ -67,9 +69,7 @@
     <Compile Include="Assets/Bottle/Scripts/Bottle.cs" />
     <Compile Include="Assets/Scripts/Throwable.cs" />
     <Compile Include="Assets/JMO Assets/WarFX/Demo/Assets/CFX_AutoStopLoopedEffect.cs" />
-    <Compile Include="Assets/Parkour FPS - First Person Character Controller/Scripts/PlayerControllerScript.cs" />
     <Compile Include="Assets/UnityTechnologies/EffectExamples/Shared/Scripts/ParticleMenu.cs" />
-    <Compile Include="Assets/Parkour FPS - First Person Character Controller/Scripts/CursorState.cs" />
     <Compile Include="Assets/Scripts/TestScipts/Movement.cs" />
     <Compile Include="Assets/Scripts/Bullet.cs" />
     <Compile Include="Assets/UnityTechnologies/EffectExamples/Shared/Scripts/GunAim.cs" />
@@ -78,7 +78,6 @@
     <Compile Include="Assets/Bottle/Scripts/BrokenBottle.cs" />
     <Compile Include="Assets/Scripts/PlayerMovement.cs" />
     <Compile Include="Assets/Scripts/GlobalReferences.cs" />
-    <Compile Include="Assets/Parkour FPS - First Person Character Controller/Scripts/SoundPlayer.cs" />
     <Compile Include="Assets/UnityTechnologies/EffectExamples/Shared/Scripts/DecalDestroyer.cs" />
     <Compile Include="Assets/Scripts/PlayerCam.cs" />
     <Compile Include="Assets/JMO Assets/WarFX/Demo/Assets/WFX_Demo_DeleteAfterDelay.cs" />
