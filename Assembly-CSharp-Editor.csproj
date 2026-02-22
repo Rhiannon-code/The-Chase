@@ -50,12 +50,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs" />
-    <Compile Include="Assets/Retro Shaders Pro/Editor/Shaders/RetroLitShaderGUI.cs" />
-    <Compile Include="Assets/Retro Shaders Pro/Editor/Shaders/CRTMeshShaderGUI.cs" />
-    <Compile Include="Assets/Retro Shaders Pro/Editor/Installer/RetroInstallerWindow.cs" />
-    <Compile Include="Assets/Retro Shaders Pro/Editor/CRTEffectEditor.cs" />
-    <Compile Include="Assets/Retro Shaders Pro/Editor/Installer/RetroInstaller.cs" />
-    <Compile Include="Assets/Retro Shaders Pro/Editor/Shaders/RetroTerrainLitShaderGUI.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
