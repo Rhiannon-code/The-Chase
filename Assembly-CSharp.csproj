@@ -36,7 +36,7 @@
   </PropertyGroup>
   <PropertyGroup>
     <UnityProjectGenerator>Package</UnityProjectGenerator>
-    <UnityProjectGeneratorVersion>2.0.26</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorVersion>2.0.27</UnityProjectGeneratorVersion>
     <UnityProjectGeneratorStyle>SDK</UnityProjectGeneratorStyle>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneLinux64:24</UnityBuildTarget>
@@ -49,15 +49,54 @@
     <Analyzer Include="/home/rhiannon/Unity/Hub/Editor/6000.3.7f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Retro Shaders Pro/Scripts/Shaders/CRTEffect.cs" />
     <Compile Include="Assets/Scripts/Player/SoundPlayer.cs" />
+    <Compile Include="Assets/Retro Shaders Pro/Demo/Scripts/River.cs" />
+    <Compile Include="Assets/Retro Shaders Pro/Scripts/Shaders/Settings/CRTSettings.cs" />
+    <Compile Include="Assets/Retro Shaders Pro/Demo/Scripts/RandomSway.cs" />
+    <Compile Include="Assets/Retro Shaders Pro/Demo/Scripts/PlayerController.cs" />
+    <Compile Include="Assets/Retro Shaders Pro/Scripts/Shaders/Utility/RetroShaderUtility.cs" />
     <Compile Include="Assets/Scripts/Player/CursorState.cs" />
     <Compile Include="Assets/Scripts/Player/Weapon.cs" />
     <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
+    <Compile Include="Assets/Scripts/Enemy/Enemy.cs" />
+    <Compile Include="Assets/Retro Shaders Pro/Scripts/FramerateLimiter.cs" />
+    <Compile Include="Assets/Retro Shaders Pro/Demo/Scripts/MouseLook.cs" />
     <Compile Include="Assets/Scripts/Player/PlayerControllerScript.cs" />
+    <Compile Include="Assets/Retro Shaders Pro/Demo/Scripts/Hover.cs" />
     <Compile Include="Assets/Scripts/Player/Projectiles.cs" />
+    <Compile Include="Assets/Retro Shaders Pro/Demo/Scripts/Rotate.cs" />
+    <Compile Include="Assets/Retro Shaders Pro/Demo/Scripts/GooseFlight.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets/Retro Shaders Pro/Shaders/Terrain/RetroTerrainLitInput.hlsl" />
+    <None Include="Assets/Retro Shaders Pro/Shaders/Terrain/RetroTerrainLitAdd.shader" />
+    <None Include="Assets/Retro Shaders Pro/Shaders/Skybox/RetroSkyboxCubemap.shader" />
+    <None Include="Assets/Retro Shaders Pro/Shaders/RetroLit.shader" />
     <None Include="Assets/Development/Shaders/Retro Base/RetroSGFunctions.hlsl" />
+    <None Include="Assets/Retro Shaders Pro/Shaders/RetroDepthNormalsPass.hlsl" />
+    <None Include="Assets/Retro Shaders Pro/Shaders/CRT Mesh/CRTSurfaceInput.hlsl" />
+    <None Include="Assets/Retro Shaders Pro/Shaders/RetroVertexLit.shader" />
+    <None Include="Assets/Retro Shaders Pro/Resources/Shaders/CRT.shader" />
+    <None Include="Assets/Retro Shaders Pro/Shaders/RetroUnlit.shader" />
+    <None Include="Assets/Retro Shaders Pro/Shaders/CRT Mesh/CRTDepthNormalsPass.hlsl" />
+    <None Include="Assets/Retro Shaders Pro/Shaders/RetroBilinear3Unlit.shader" />
+    <None Include="Assets/Retro Shaders Pro/Shaders/RetroGBufferPass.hlsl" />
+    <None Include="Assets/Retro Shaders Pro/Shaders/RetroBilinear3VertexLit.shader" />
+    <None Include="Assets/Retro Shaders Pro/Shaders/Terrain/RetroTerrainLitPasses.hlsl" />
+    <None Include="Assets/Retro Shaders Pro/Shaders/RetroBilinear3Lit.shader" />
+    <None Include="Assets/Retro Shaders Pro/Shaders/RetroShadowCasterPass.hlsl" />
+    <None Include="Assets/Retro Shaders Pro/Shaders/Terrain/RetroTerrainLitDepthNormalsPass.hlsl" />
+    <None Include="Assets/Retro Shaders Pro/Shaders/RetroDepthOnlyPass.hlsl" />
+    <None Include="Assets/Retro Shaders Pro/Shaders/CRT Mesh/CRTMetaPass.hlsl" />
+    <None Include="Assets/Retro Shaders Pro/Shaders/Terrain/RetroTerrainLitBase.shader" />
+    <None Include="Assets/Retro Shaders Pro/Shaders/RetroMetaPass.hlsl" />
+    <None Include="Assets/Retro Shaders Pro/Shaders/CRT Mesh/UnlitForwardPass.hlsl" />
+    <None Include="Assets/Retro Shaders Pro/Shaders/CRT Mesh/CRTDepthOnlyPass.hlsl" />
+    <None Include="Assets/Retro Shaders Pro/Shaders/Terrain/RetroTerrainLit.shader" />
+    <None Include="Assets/Retro Shaders Pro/Shaders/CRT Mesh/CRTMesh.shader" />
+    <None Include="Assets/Retro Shaders Pro/Shaders/Terrain/RetroTerrainLitBasemapGen.shader" />
+    <None Include="Assets/Retro Shaders Pro/Shaders/RetroSurfaceInput.hlsl" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -1216,10 +1255,6 @@
       <HintPath>Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VisualStudio.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.Collections">
       <HintPath>Library/ScriptAssemblies/Unity.Collections.dll</HintPath>
       <Private>False</Private>
@@ -1310,6 +1345,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Unity.VisualStudio.Editor.csproj" />
   </ItemGroup>
   <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
   <ItemGroup>

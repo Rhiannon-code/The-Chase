@@ -21,18 +21,18 @@ Kernel version:          6.19.3-2-cachyos
 Architecture:            x86_64
 Window Protocol:         Wayland (XWayland)
 Available memory:        31996 MB
-Date:                    2026-02-22T22:36:17Z
+Date:                    2026-02-23T06:42:20Z
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-rhiannon" at "2026-02-22T22:36:17.070702Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-rhiannon" at "2026-02-23T06:42:20.959377Z"
 [SignatureVerifier] Application signature verification not supported on this platform.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              5a327abadfc249bf8f05940a3a2f8683
-  Correlation Id:          314f5f0527a0f9810997842311347834
-  External correlation Id: 8182343898012158823
+  Session Id:              0bcf795e2b06459c89475a4076c708dc
+  Correlation Id:          6dfd4f0206798294542de55c88a308b3
+  External correlation Id: 8976286469303884532
   Machine Id:              f8KgvhXTc+wkx/7/K110e9qU1KE=
 [Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-rhiannon" (connect: 0.00s, validation: 0.00s, handshake: 0.00s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-rhiannon-notifications" at "2026-02-22T22:36:17.071577Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-rhiannon-notifications" at "2026-02-23T06:42:20.960198Z"
 [Licensing::Module] Licensing Background thread has ended after 0.00s
 Selected window backend: (null) 
 Desktop is 5920 x 2560 @ 60 Hz
@@ -46,11 +46,11 @@ Unity
 -name
 AssetImportWorker0
 -projectPath
-/mnt/vfs_share/School Work/Diploma/The Chase
+/mnt/vfs_share/School Work/Diploma/The-Chase
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-39965
+46261
 -licensingIpc
 LicenseClient-rhiannon
 -job-worker-count
@@ -59,8 +59,8 @@ LicenseClient-rhiannon
 8
 -gc-helper-count
 1
-Successfully changed project path to: /mnt/vfs_share/School Work/Diploma/The Chase
-/mnt/vfs_share/School Work/Diploma/The Chase
+Successfully changed project path to: /mnt/vfs_share/School Work/Diploma/The-Chase
+/mnt/vfs_share/School Work/Diploma/The-Chase
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-allocator-temp-initial-block-size-main=262144"
     "memorysetup-allocator-temp-initial-block-size-worker=262144"
@@ -96,14 +96,14 @@ Successfully changed project path to: /mnt/vfs_share/School Work/Diploma/The Cha
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [139972799241344]  Target information:
+Player connection [139912155925632]  Target information:
 
-Player connection [139972799241344]  * "[IP] 192.168.1.16 [Port] 0 [Flags] 2 [Guid] 675574310 [EditorId] 675574310 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.16) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [139912155925632]  * "[IP] 192.168.1.16 [Port] 0 [Flags] 2 [Guid] 552108359 [EditorId] 552108359 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.16) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [139972799241344]  * "[IP] 192.168.122.1 [Port] 0 [Flags] 2 [Guid] 675574310 [EditorId] 675574310 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.16) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+Player connection [139912155925632]  * "[IP] 192.168.122.1 [Port] 0 [Flags] 2 [Guid] 552108359 [EditorId] 552108359 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.16) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
 
-Player connection [139972799241344] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [139972799241344] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [139912155925632] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [139912155925632] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 11
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -115,11 +115,11 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.38 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.35 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.7f1 (696ec25a53d1)
 [Subsystems] Discovering subsystems at path /home/rhiannon/Unity/Hub/Editor/6000.3.7f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /mnt/vfs_share/School Work/Diploma/The Chase/Assets
+[Subsystems] Discovering subsystems at path /mnt/vfs_share/School Work/Diploma/The-Chase/Assets
 kGfxThreadingModeNonThreaded is not supported on OpenGL Core. Reverting to kGfxThreadingModeDirect instead.
 GfxDevice: creating device client; kGfxThreadingModeDirect
 GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_video_sync 
@@ -134,17 +134,17 @@ clamp GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessel
 _attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_image_storage_compression GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_clock GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL
 _EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_RG8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_shader_subgroup GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_const_bandwidth GL_MESA_tex
 ture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha_to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_shader_atomic_int64 GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
-OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle -1569053488
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle -1871921808
 Initialize mono
 Mono path[0] = '/home/rhiannon/Unity/Hub/Editor/6000.3.7f1/Editor/Data/Managed'
 Mono path[1] = '/home/rhiannon/Unity/Hub/Editor/6000.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
 Mono config path = '/home/rhiannon/Unity/Hub/Editor/6000.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56142
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56515
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /home/rhiannon/Unity/Hub/Editor/6000.3.7f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.001613 seconds.
-- Loaded All Assemblies, in  0.273 seconds
+Registered in 0.001685 seconds.
+- Loaded All Assemblies, in  0.238 seconds
 Native extension for LinuxStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -152,35 +152,35 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.408 seconds
-Domain Reload Profiling: 681ms
-	BeginReloadAssembly (59ms)
+- Finished resetting the current domain, in  0.369 seconds
+Domain Reload Profiling: 607ms
+	BeginReloadAssembly (48ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (121ms)
-		LoadAssemblies (58ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (118ms)
+		LoadAssemblies (47ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (119ms)
-			TypeCache.Refresh (118ms)
-				TypeCache.ScanAssembly (108ms)
+		AnalyzeDomain (116ms)
+			TypeCache.Refresh (115ms)
+				TypeCache.ScanAssembly (106ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (408ms)
+	FinalizeReload (369ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (368ms)
+		SetupLoadedEditorAssemblies (333ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (42ms)
-			SetLoadedEditorAssemblies (11ms)
-			BeforeProcessingInitializeOnLoad (85ms)
-			ProcessInitializeOnLoadAttributes (156ms)
-			ProcessInitializeOnLoadMethodAttributes (75ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (142ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -195,43 +195,43 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.527 seconds
-Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+- Loaded All Assemblies, in  0.467 seconds
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
 Native extension for LinuxStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.623 seconds
-Domain Reload Profiling: 1148ms
-	BeginReloadAssembly (101ms)
+- Finished resetting the current domain, in  0.545 seconds
+Domain Reload Profiling: 1011ms
+	BeginReloadAssembly (91ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (354ms)
-		LoadAssemblies (182ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (314ms)
+		LoadAssemblies (177ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (212ms)
-			TypeCache.Refresh (148ms)
-				TypeCache.ScanAssembly (137ms)
-			BuildScriptInfoCaches (54ms)
+		AnalyzeDomain (171ms)
+			TypeCache.Refresh (118ms)
+				TypeCache.ScanAssembly (109ms)
+			BuildScriptInfoCaches (43ms)
 			ResolveRequiredComponents (8ms)
-	FinalizeReload (623ms)
+	FinalizeReload (545ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (476ms)
+		SetupLoadedEditorAssemblies (416ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (140ms)
-			ProcessInitializeOnLoadAttributes (276ms)
-			ProcessInitializeOnLoadMethodAttributes (49ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (113ms)
+			ProcessInitializeOnLoadAttributes (246ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -249,505 +249,21 @@ WARNING: Shader Unsupported: 'Retro Shaders Pro/Terrain/Lit' - All subshaders re
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
 AutoLocale: current locale expects 'C' but got 'en_AU.UTF-8'Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6242 unused Assets / (5.7 MB). Loaded Objects now: 7051.
-Memory consumption went from 139.7 MB to 134.0 MB.
-Total: 13.007614 ms (FindLiveObjects: 1.045784 ms CreateObjectMapping: 0.621207 ms MarkObjects: 7.462063 ms  DeleteObjects: 3.877540 ms)
+Unloading 6245 unused Assets / (6.2 MB). Loaded Objects now: 7056.
+Memory consumption went from 139.9 MB to 133.7 MB.
+Total: 9.455843 ms (FindLiveObjects: 0.478898 ms CreateObjectMapping: 0.430808 ms MarkObjects: 5.639912 ms  DeleteObjects: 2.905685 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3839.420189 seconds.
-  path: Assets/Parkour FPS - First Person Character Controller/Scenes/Example Scene/Terrain.asset
-  artifactKey: Guid(6d2c880000501e14ba3cd8fe84874a93) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Parkour FPS - First Person Character Controller/Scenes/Example Scene/Terrain.asset using Guid(6d2c880000501e14ba3cd8fe84874a93) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '50af04413c5c30a2530a58bbc3efe2d6') in 0.060883505 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Retro Shaders Pro/Editor/Shaders
-  artifactKey: Guid(779fda09a0f40104098e3660cedc46e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Retro Shaders Pro/Editor/Shaders using Guid(779fda09a0f40104098e3660cedc46e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7a7ab8f93939ac6668fa7a0383774bfc') in 0.001713291 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Retro Shaders Pro/Demo/Scenes/CityDemo/GlobalVolumeProfile.asset
-  artifactKey: Guid(5105f061e0c9101439a6777dc344e7ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Retro Shaders Pro/Demo/Scenes/CityDemo/GlobalVolumeProfile.asset using Guid(5105f061e0c9101439a6777dc344e7ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '844f92258628d8eb162e3bb5885be92f') in 0.00807198 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000008 seconds.
-  path: Assets/Retro Shaders Pro/Demo/Textures/Concrete
-  artifactKey: Guid(b32413d3b7e8be543943dfc778b36de1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Retro Shaders Pro/Demo/Textures/Concrete using Guid(b32413d3b7e8be543943dfc778b36de1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bf04bb1d7fdc008b34b0c4a2eee86391') in 0.001217464 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000008 seconds.
-  path: Assets/Retro Shaders Pro/Demo/Prefabs/Keypad.prefab
-  artifactKey: Guid(099c5c4c76af0b24b904ca906a7c9a92) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Retro Shaders Pro/Demo/Prefabs/Keypad.prefab using Guid(099c5c4c76af0b24b904ca906a7c9a92) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9b0a0a6e09dba28f2ac81b07e3e6c70d') in 0.033352583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Parkour FPS - First Person Character Controller/Materials/GreenMat.mat
-  artifactKey: Guid(304e0befa3ef4d840be9b5cdf51ad541) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Parkour FPS - First Person Character Controller/Materials/GreenMat.mat using Guid(304e0befa3ef4d840be9b5cdf51ad541) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9d8dc908a22d67c7d179792cdfb607ef') in 0.01200762 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Parkour FPS - First Person Character Controller/Scripts/CursorState.cs
-  artifactKey: Guid(858f9b1726fe06c46875a02fa301e027) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Parkour FPS - First Person Character Controller/Scripts/CursorState.cs using Guid(858f9b1726fe06c46875a02fa301e027) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '198a85e8ecb51dc02f7e61784f80bdb6') in 0.001830681 seconds
+  Time since last request: 33002.974414 seconds.
+  path: Assets/Scripts/Enemy/Enemy.cs
+  artifactKey: Guid(9e4f70fac541ec3c8b7ffa4678384afc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/Enemy/Enemy.cs using Guid(9e4f70fac541ec3c8b7ffa4678384afc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '00000000000000000000000000000000') in 0.061085044 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/scripts/enemy/enemy.cs in SourceAssetDB has modification time of '2026-02-23T06:42:00Z' while content on disk has modification time of '2026-02-23T06:42:15Z'
+  ERROR: Build asset version error: assets/scripts/enemy/enemy.cs in SourceAssetDB has modification time of '2026-02-23T06:42:00Z' while content on disk has modification time of '2026-02-23T06:42:15Z'
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000008 seconds.
-  path: Assets/Retro Shaders Pro/Demo/Textures/Bark
-  artifactKey: Guid(7eaa60e1cd1cfd342a12a74ea4c0be04) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Retro Shaders Pro/Demo/Textures/Bark using Guid(7eaa60e1cd1cfd342a12a74ea4c0be04) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c682e7bd71c60519da1b95397d976955') in 0.001327793 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Retro Shaders Pro/Demo/Textures/Concrete/Concrete024_1K-PNG_NormalGL.png
-  artifactKey: Guid(23b9e7e1177d69542814790467242a47) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Retro Shaders Pro/Demo/Textures/Concrete/Concrete024_1K-PNG_NormalGL.png using Guid(23b9e7e1177d69542814790467242a47) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '94957de624ef91413b7048f089387e50') in 0.033102815 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000008 seconds.
-  path: Assets/Parkour FPS - First Person Character Controller/Scenes
-  artifactKey: Guid(1099d2a89bcf5b74b98ba10996b642ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Parkour FPS - First Person Character Controller/Scenes using Guid(1099d2a89bcf5b74b98ba10996b642ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0edfa96b95f57892aa8d08f7da6b7de9') in 0.001186664 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000008 seconds.
-  path: Assets/Parkour FPS - First Person Character Controller/Materials/BlueMat.mat
-  artifactKey: Guid(3b0ae79d3f088594ab1aea53c6dbca8b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Parkour FPS - First Person Character Controller/Materials/BlueMat.mat using Guid(3b0ae79d3f088594ab1aea53c6dbca8b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '41fdd1cb6a5b0072c77ed4e7d3d5d1d6') in 0.001793641 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000007 seconds.
-  path: Assets/Parkour FPS - First Person Character Controller/Sounds/running.wav
-  artifactKey: Guid(08f13cdb6bb488c42b5d51dd35bdbcc1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Parkour FPS - First Person Character Controller/Sounds/running.wav using Guid(08f13cdb6bb488c42b5d51dd35bdbcc1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3c412e61975bd787f6134d8d78472c91') in 0.013671041 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/JC_LP_MegaCity/Materials/M_MegaCity_Glass_03.mat
-  artifactKey: Guid(48f287b360efc0144aefece7d85a2896) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/JC_LP_MegaCity/Materials/M_MegaCity_Glass_03.mat using Guid(48f287b360efc0144aefece7d85a2896) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4e5abc236fed9ffad32b72c7db7c1008') in 0.006704837 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000008 seconds.
-  path: Assets/Parkour FPS - First Person Character Controller/Materials/RedMat.mat
-  artifactKey: Guid(651000d646ca4814583bee15fa17e414) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Parkour FPS - First Person Character Controller/Materials/RedMat.mat using Guid(651000d646ca4814583bee15fa17e414) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8e8f9a5c64099f72cd8abf70d08d3282') in 0.00185721 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000008 seconds.
-  path: Assets/Retro Shaders Pro/Demo/Materials/Retro Road03.mat
-  artifactKey: Guid(1c2d3b263a3301b4e80ecc724fb25fd1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Retro Shaders Pro/Demo/Materials/Retro Road03.mat using Guid(1c2d3b263a3301b4e80ecc724fb25fd1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '42c2b21010918471a74300cfe6403285') in 0.003043014 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Parkour FPS - First Person Character Controller
-  artifactKey: Guid(399133c968b89df438b281870f812972) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Parkour FPS - First Person Character Controller using Guid(399133c968b89df438b281870f812972) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '54ec229bf80007445f73b4c28138aedc') in 0.001476973 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Retro Shaders Pro/Demo/Materials/Retro River 2.mat
-  artifactKey: Guid(b6037da6137bea340a15abb1b0ca9bb1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Retro Shaders Pro/Demo/Materials/Retro River 2.mat using Guid(b6037da6137bea340a15abb1b0ca9bb1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '29ffbcc061d6bb2139a8ff327499fc7e') in 0.002652987 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000007 seconds.
-  path: Assets/Retro Shaders Pro/Shaders/CRT Mesh
-  artifactKey: Guid(af404fadab34fd349ba08c0c4548af54) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Retro Shaders Pro/Shaders/CRT Mesh using Guid(af404fadab34fd349ba08c0c4548af54) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '937ef18272e6d7651d0293369f3c0099') in 0.001277854 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Retro Shaders Pro/Demo/Terrain/TerrainData_d739cfa0-1d02-4510-8ae5-83b750f76447.asset
-  artifactKey: Guid(7f39926594577464bb589608e03a0c06) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Retro Shaders Pro/Demo/Terrain/TerrainData_d739cfa0-1d02-4510-8ae5-83b750f76447.asset using Guid(7f39926594577464bb589608e03a0c06) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)The tree Tree must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
-UnityEditor.AssetDatabase:LoadMainAssetAtPath (string)
-UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&) (at /home/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:292)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool) (at /home/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:199)
-UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext) (at /home/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/SearchIndexArtifactImporter.cs:42)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext) (at /home/bokken/build/output/unity/unity/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:25)
-
-[/home/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs line 292]
-
-The tree GrassTuft must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
-UnityEditor.AssetDatabase:LoadMainAssetAtPath (string)
-UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&) (at /home/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:292)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool) (at /home/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:199)
-UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext) (at /home/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/SearchIndexArtifactImporter.cs:42)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext) (at /home/bokken/build/output/unity/unity/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:25)
-
-[/home/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs line 292]
-
-The tree TreeApple Variant must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
-UnityEditor.AssetDatabase:LoadMainAssetAtPath (string)
-UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&) (at /home/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:292)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool) (at /home/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:199)
-UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext) (at /home/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/SearchIndexArtifactImporter.cs:42)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext) (at /home/bokken/build/output/unity/unity/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:25)
-
-[/home/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs line 292]
-
-The tree Mushroom Red must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
-UnityEditor.AssetDatabase:LoadMainAssetAtPath (string)
-UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&) (at /home/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:292)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool) (at /home/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:199)
-UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext) (at /home/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/SearchIndexArtifactImporter.cs:42)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext) (at /home/bokken/build/output/unity/unity/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:25)
-
-[/home/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs line 292]
-
-The tree Mushroom Blue must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
-UnityEditor.AssetDatabase:LoadMainAssetAtPath (string)
-UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&) (at /home/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:292)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool) (at /home/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:199)
-UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext) (at /home/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/SearchIndexArtifactImporter.cs:42)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext) (at /home/bokken/build/output/unity/unity/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:25)
-
-[/home/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs line 292]
-
-The tree TreeBare must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
-UnityEditor.AssetDatabase:LoadMainAssetAtPath (string)
-UnityEditor.Search.AssetIndexer:IndexProperties (int&,string&,bool&) (at /home/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:292)
-UnityEditor.Search.AssetIndexer:IndexDocument (string,bool) (at /home/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs:199)
-UnityEditor.Search.SearchIndexArtifactImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext) (at /home/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/SearchIndexArtifactImporter.cs:42)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext) (at /home/bokken/build/output/unity/unity/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:25)
-
-[/home/bokken/build/output/unity/unity/Modules/QuickSearch/Editor/Indexing/AssetIndexer.cs line 292]
-
- -> (artifact id: '09e9fe72223ed810160ed92d5ffe7445') in 0.017451782 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 54
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000007 seconds.
-  path: Assets/Parkour FPS - First Person Character Controller/Scripts/PlayerControllerScript.cs
-  artifactKey: Guid(3ccf5fc4c113d134c82830320b9fe9b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Parkour FPS - First Person Character Controller/Scripts/PlayerControllerScript.cs using Guid(3ccf5fc4c113d134c82830320b9fe9b8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '408144dcadaf811f77f64edb2fc59be0') in 0.001598902 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000008 seconds.
-  path: Assets/Retro Shaders Pro/Demo/Prefabs/Lamppost.prefab
-  artifactKey: Guid(a9c74c75dd72b624b83e7721b7afc611) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Retro Shaders Pro/Demo/Prefabs/Lamppost.prefab using Guid(a9c74c75dd72b624b83e7721b7afc611) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f1e4d70fdb0c61e1b38eb10143abd59e') in 0.009539492 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Retro Shaders Pro/Demo/Prefabs/Windmill.prefab
-  artifactKey: Guid(1e18b56a9b74f1545a1fc234f66f052d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Retro Shaders Pro/Demo/Prefabs/Windmill.prefab using Guid(1e18b56a9b74f1545a1fc234f66f052d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f8e17774ba7707ebbf6868dcfce21820') in 0.002986925 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.031762 seconds.
-  path: Assets/Retro Shaders Pro/Shaders/Terrain/RetroTerrainLit.shader
-  artifactKey: Guid(4cb7976dd1d3c5b45b59b628c1ff3f81) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Retro Shaders Pro/Shaders/Terrain/RetroTerrainLit.shader using Guid(4cb7976dd1d3c5b45b59b628c1ff3f81) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4a103611672651d911ec8374d67602d9') in 0.006802616 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000007 seconds.
-  path: Assets/Retro Shaders Pro/Shaders/Terrain/RetroTerrainLitBase.shader
-  artifactKey: Guid(da0dbdd5fd31f4a4185aa716bdbd20bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Retro Shaders Pro/Shaders/Terrain/RetroTerrainLitBase.shader using Guid(da0dbdd5fd31f4a4185aa716bdbd20bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '510ac5e8fcedb504054965f75da0a10e') in 0.002839116 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Retro Shaders Pro/Demo/Prefabs/Procedural Skybox.prefab
-  artifactKey: Guid(a3f4bf6714abb4849b7ce269fcfd606a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Retro Shaders Pro/Demo/Prefabs/Procedural Skybox.prefab using Guid(a3f4bf6714abb4849b7ce269fcfd606a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0dd955772d90fc593f4e49923500018c') in 0.00395454 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Retro Shaders Pro/Demo/Textures/NeonSign01.png
-  artifactKey: Guid(70892580f803141488ecdb3a9c2ea620) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Retro Shaders Pro/Demo/Textures/NeonSign01.png using Guid(70892580f803141488ecdb3a9c2ea620) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9e7172b347e25491bde52bb86be07562') in 0.004067769 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000008 seconds.
-  path: Assets/Retro Shaders Pro/Demo/Terrain/SandLayer.terrainlayer
-  artifactKey: Guid(3a90a5f84f13a15409586abb9d1b5617) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Retro Shaders Pro/Demo/Terrain/SandLayer.terrainlayer using Guid(3a90a5f84f13a15409586abb9d1b5617) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8a404e568a0d1d44f6b41d35c81c1cd1') in 0.003802561 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000007 seconds.
-  path: Assets/Retro Shaders Pro/Demo/Materials/Retro Window.mat
-  artifactKey: Guid(7310491637202e7498186cbb31ab6806) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Retro Shaders Pro/Demo/Materials/Retro Window.mat using Guid(7310491637202e7498186cbb31ab6806) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9a546ca63f34a6837b22d122e7d5ba67') in 0.002891066 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000008 seconds.
-  path: Assets/Retro Shaders Pro/Demo/Scripts/PlayerController.cs
-  artifactKey: Guid(6eb5d16e196dc3740a42477a2f98766f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Retro Shaders Pro/Demo/Scripts/PlayerController.cs using Guid(6eb5d16e196dc3740a42477a2f98766f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1469628bbfc5bf01d552de5ca9fd9f12') in 0.001434912 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000009 seconds.
-  path: Assets/Retro Shaders Pro/Demo/Scripts/RandomSway.cs
-  artifactKey: Guid(8d023865285236d4881252e2e4f695ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Retro Shaders Pro/Demo/Scripts/RandomSway.cs using Guid(8d023865285236d4881252e2e4f695ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '19a026725c5972dc99011985f6cef3d5') in 0.001772501 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000008 seconds.
-  path: Assets/Retro Shaders Pro/Demo/Textures/AltBricks
-  artifactKey: Guid(b6228de4f2e6fd44bbfa4e0e9d6c62d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Retro Shaders Pro/Demo/Textures/AltBricks using Guid(b6228de4f2e6fd44bbfa4e0e9d6c62d3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dbfdcc12b4c9e16b0c96dbeeab39a401') in 0.001110425 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000008 seconds.
-  path: Assets/Retro Shaders Pro/Demo/Materials/Retro Wood Planks.mat
-  artifactKey: Guid(f0fbe369eb421b04a8c0d3a3ed201693) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Retro Shaders Pro/Demo/Materials/Retro Wood Planks.mat using Guid(f0fbe369eb421b04a8c0d3a3ed201693) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b06c6f1f8a74b06aab22e22567e2e549') in 0.00404655 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000008 seconds.
-  path: Assets/Retro Shaders Pro/Demo/Scripts/Rotate.cs
-  artifactKey: Guid(1d5ef1750ebc2794bae478d913e9723e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Retro Shaders Pro/Demo/Scripts/Rotate.cs using Guid(1d5ef1750ebc2794bae478d913e9723e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7a87e53044729b506681e00496583eb1') in 0.001710082 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000009 seconds.
-  path: Assets/Retro Shaders Pro/Shaders/CRT Mesh/CRTDepthNormalsPass.hlsl
-  artifactKey: Guid(b5fb4c9476ad99342ad20d62c4dd5569) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Retro Shaders Pro/Shaders/CRT Mesh/CRTDepthNormalsPass.hlsl using Guid(b5fb4c9476ad99342ad20d62c4dd5569) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ec5677cef7a687ed8a4ea03ded37d362') in 0.001426053 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000008 seconds.
-  path: Assets/Retro Shaders Pro/Demo/Textures/Ground
-  artifactKey: Guid(b90afbbb5bca3ac4db2c3b57014b728f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Retro Shaders Pro/Demo/Textures/Ground using Guid(b90afbbb5bca3ac4db2c3b57014b728f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '488630609a61f17765515e5ea2410254') in 0.001180354 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000008 seconds.
-  path: Assets/Retro Shaders Pro/Demo/Textures/String.png
-  artifactKey: Guid(e42ca7e985b9ea84d9861561887edf64) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Retro Shaders Pro/Demo/Textures/String.png using Guid(e42ca7e985b9ea84d9861561887edf64) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd233751a4adbb2ed622a0fe7fdce8587') in 0.004581057 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Retro Shaders Pro/Demo/Meshes/GrassTuft.fbx
-  artifactKey: Guid(b2a941908f5a6d5498e5895226f42f03) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Retro Shaders Pro/Demo/Meshes/GrassTuft.fbx using Guid(b2a941908f5a6d5498e5895226f42f03) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3a086506aa0348a897a665bf4871a7d9') in 0.024101089 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Retro Shaders Pro/Scripts/Shaders/Utility
-  artifactKey: Guid(6ca05e6681dc75b418baeae49126edae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Retro Shaders Pro/Scripts/Shaders/Utility using Guid(6ca05e6681dc75b418baeae49126edae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ea2054ea8d3e0ab90cb25377c78bf1fe') in 0.00189518 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000008 seconds.
-  path: Assets/Retro Shaders Pro/Demo/Scenes
-  artifactKey: Guid(4ce4758f38ec05d44b51e4f7ff76fade) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Retro Shaders Pro/Demo/Scenes using Guid(4ce4758f38ec05d44b51e4f7ff76fade) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '47d8371b92767fbaae4ecd3920ace96e') in 0.001183264 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Retro Shaders Pro/Demo/Materials/Retro GrassTuft.mat
-  artifactKey: Guid(5ccd8c840745fff44b573e8a736c9868) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Retro Shaders Pro/Demo/Materials/Retro GrassTuft.mat using Guid(5ccd8c840745fff44b573e8a736c9868) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4c34a3a5bb4daf348d228316706605ae') in 0.002530967 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.127613 seconds.
-  path: Assets/Retro Shaders Pro/Demo/Materials/Lamps/Retro Lamp Blue.mat
-  artifactKey: Guid(a1763b5334d921b4b8813062817e1c21) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Retro Shaders Pro/Demo/Materials/Lamps/Retro Lamp Blue.mat using Guid(a1763b5334d921b4b8813062817e1c21) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9059d1ed123dd3167032ed91960f97e4') in 0.003786611 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Retro Shaders Pro/Shaders/Retro Base/retro-graphs-v1.3.2.unitypackage
-  artifactKey: Guid(02db46bcdeb35a74cad670bcb243b251) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Retro Shaders Pro/Shaders/Retro Base/retro-graphs-v1.3.2.unitypackage using Guid(02db46bcdeb35a74cad670bcb243b251) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4976932c0e9612d1e66c25386b49b507') in 0.001706641 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Retro Shaders Pro/Demo/Scenes/Bilinear3Demo.unity
-  artifactKey: Guid(8704ce35ad1dd7346a2f6aa71c43fe98) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Retro Shaders Pro/Demo/Scenes/Bilinear3Demo.unity using Guid(8704ce35ad1dd7346a2f6aa71c43fe98) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7d7fc5f724efd112745216e9da02a2ad') in 0.001680331 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Retro Shaders Pro/Demo/Textures/Crate.png
-  artifactKey: Guid(09b35d203eb88a44eb9578b0439137c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Retro Shaders Pro/Demo/Textures/Crate.png using Guid(09b35d203eb88a44eb9578b0439137c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cbcc9207c0daf8b3c8177b3e979ffaac') in 0.005274174 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000008 seconds.
-  path: Assets/Development/Shaders/Retro Base/Retro Lighting.shadersubgraph
-  artifactKey: Guid(4f7bb41e4d8c46a48903aacbb980687a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Development/Shaders/Retro Base/Retro Lighting.shadersubgraph using Guid(4f7bb41e4d8c46a48903aacbb980687a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6c0ce39c2adf2eda5643a46ad81311db') in 0.016779606 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Retro Shaders Pro/Demo/Materials/Retro Tree Leaves.mat
-  artifactKey: Guid(c6e61731d1162bb4fa262d8857795e91) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Retro Shaders Pro/Demo/Materials/Retro Tree Leaves.mat using Guid(c6e61731d1162bb4fa262d8857795e91) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '00279ddbb1b3cd1711953950d8e06ced') in 0.003404933 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Development/Shaders/Retro Base/Retro Base Lit.shadergraph
-  artifactKey: Guid(6bed832143ddb7e4896a3d0c920a11d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Development/Shaders/Retro Base/Retro Base Lit.shadergraph using Guid(6bed832143ddb7e4896a3d0c920a11d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ba183170cf3407fb167d41ceda7342d8') in 0.011837531 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000008 seconds.
-  path: Assets/Retro Shaders Pro/Shaders/Terrain/RetroTerrainLitPasses.hlsl
-  artifactKey: Guid(2777eac3ed618b14cba74cca4147d6f3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Retro Shaders Pro/Shaders/Terrain/RetroTerrainLitPasses.hlsl using Guid(2777eac3ed618b14cba74cca4147d6f3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3a1ebcb96476e6a592ca6e97dd759674') in 0.001292524 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000009 seconds.
-  path: Assets/Retro Shaders Pro/Demo/Materials/Retro Goose.mat
-  artifactKey: Guid(101cfb6985773244e86b45e966ba3330) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Retro Shaders Pro/Demo/Materials/Retro Goose.mat using Guid(101cfb6985773244e86b45e966ba3330) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '227314eceb58c1efb8207c531feca306') in 0.005539842 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000008 seconds.
-  path: Assets/Retro Shaders Pro/Demo/Prefabs/LightString.prefab
-  artifactKey: Guid(9525a0beb5504814db1c5910f2b92155) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Retro Shaders Pro/Demo/Prefabs/LightString.prefab using Guid(9525a0beb5504814db1c5910f2b92155) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f24319a9dd4a6c37f5d8b4a8808c19ee') in 0.003530973 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 127
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Retro Shaders Pro/Demo/Textures/Grass
-  artifactKey: Guid(198d72f0ae2c39348901ccec2d200087) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Retro Shaders Pro/Demo/Textures/Grass using Guid(198d72f0ae2c39348901ccec2d200087) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8c6c042ac0cc025cd6d75ccfe8405a8e') in 0.001286594 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Retro Shaders Pro/Demo/Prefabs/WindowFrameLarge.prefab
-  artifactKey: Guid(e42b7c0c7c30af84fbe856791e67f202) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Retro Shaders Pro/Demo/Prefabs/WindowFrameLarge.prefab using Guid(e42b7c0c7c30af84fbe856791e67f202) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c2373008448d06069dfe158929322d93') in 0.004373518 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000008 seconds.
-  path: Assets/Retro Shaders Pro/Demo/Materials/Retro Mushroom Blue.mat
-  artifactKey: Guid(4f84797ca6a49e74eb939285bcf3ff52) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Retro Shaders Pro/Demo/Materials/Retro Mushroom Blue.mat using Guid(4f84797ca6a49e74eb939285bcf3ff52) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6713bdaac265c80515e08b299080bb60') in 0.002701767 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-
-SDL leaked 2 allocations
